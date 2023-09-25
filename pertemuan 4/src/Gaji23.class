@@ -1,0 +1,21 @@
+// Source code is decompiled from a .class file using FernFlower decompiler.
+import java.util.Scanner;
+
+public class Gaji23 {
+   public Gaji23() {
+   }
+
+   public static void main(String[] args) {
+      Scanner input = new Scanner(System.in);
+      System.out.println("Masukkan Jumlah Hari Masuk Kerja anda");
+      int jmlMasuk = input.nextInt();
+      System.out.println("Masukkan Jumlah Hari Tidak Masuk Kerja anda");
+      int jmlTdkMasuk = input.nextInt();
+      System.out.println("Masukkan Jumlah Gaji anda");
+      int gaji = input.nextInt();
+      System.out.println("Masukkan Jumlah potongan gaji anda");
+      int potGaji = input.nextInt();
+      int TotGaji = jmlMasuk * gaji - jmlTdkMasuk * potGaji;
+      System.out.println("Gaji yang anda terima adalah" + TotGaji);
+   }
+}

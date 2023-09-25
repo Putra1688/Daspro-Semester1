@@ -1,6 +1,7 @@
+import java.util.Scanner;
 public class Segitiga23{
     public static void main(String[] args) {
-       import java.util.Scanner;
+       
        Scanner sc = new Scanner(System.in);
        int alas, tinggi;
        float luas;
