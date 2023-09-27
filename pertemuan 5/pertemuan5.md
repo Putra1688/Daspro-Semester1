@@ -10,4 +10,4 @@
 ### 2. Pengaplikasian Technique dalam ***Scanner as = new Scanner(System.in);*** 
 ### 3. switchcase : print text bersyarat dari input, yang mana opsi print nya lebih dari 1
 ### 4. kolaborasi switchcase x operator
-
+### 5. if else : tetap print text meski kondisi bersifat else, tapi dengan syarat tertentu
