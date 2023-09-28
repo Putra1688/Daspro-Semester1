@@ -10,7 +10,7 @@ public class LatihanIndividu1_23 {
     jarakMusuh = as.nextInt();
 
     jenisSenjata = jarakMusuh <= 5 ? "Range " : "Melee ";
-    System.out.println("Your Weapon is: " +jenisSenjata + "because it is" +jarakMusuh +"m");
+    System.out.println("Your Weapon is: " +jenisSenjata + "because it is " +jarakMusuh +" m");
 
     }
 }
