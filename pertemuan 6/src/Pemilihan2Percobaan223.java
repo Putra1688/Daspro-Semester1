@@ -1,6 +1,6 @@
 import java.util.Scanner;
 public class Pemilihan2Percobaan223 {
-    public static void main(String[] args){
+    public static void main(String[] args) {
     Scanner input23 = new Scanner(System.in);
 
     float sudut1, sudut2, sudut3, totalSudut;
