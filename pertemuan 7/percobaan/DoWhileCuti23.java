@@ -8,6 +8,7 @@ public class DoWhileCuti23 {
     System.out.println("Jatah Cuti: ");
     jatahCuti = sc.nextInt();
     
+    // do { statements; update;} while (kondisi);
     do { 
         System.out.println("Apakah anda ingin mengambil cuti? (y/n)");
         konfirmasi = sc.next();

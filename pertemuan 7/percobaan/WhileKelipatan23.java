@@ -9,7 +9,7 @@ public class WhileKelipatan23 {
         System.out.println("Masukkan bilangan kelipatan (1-9) : ");
         kelipatan = scan.nextInt();
 
-        /*inisiasi
+        /*inisiasi                  // inisiasi; while (kondisi) { statements; update;}
         while (kondisi) {
             statement;
         }
@@ -20,8 +20,8 @@ public class WhileKelipatan23 {
                 jumlah += i;
                 counter++;
             }
-            i++;
-        }
+            i++;   
+        }  
         System.out.printf("Banyaknya bilangan %d dari 1 sampai 50 adalah %d", kelipatan, counter);
         System.out.printf("\nTotal bilangan kelipatan %d dari 1 sampai 50 adalah %d", kelipatan, jumlah);
     }

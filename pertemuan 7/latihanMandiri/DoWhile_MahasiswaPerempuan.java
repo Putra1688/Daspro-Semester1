@@ -6,6 +6,7 @@ public class DoWhile_MahasiswaPerempuan {
     int jumlah=0, i = 1;
     String nama, jenisKelamin;
 
+    // do { statements; update; } while (kondisi);
     do {
         System.out.println("Masukkan Nama Mahasiswa: ");
         nama = sc.next();
