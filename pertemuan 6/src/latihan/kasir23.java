@@ -9,7 +9,7 @@ public class kasir23 {
         System.out.println("Berapa total harga barang belanjaan? Rp");
         total = sc23.nextInt();
 
-        if (kartu.equals("ya")) {
+        if (kartu.equals("ya")) { 
             if (total > 500000) {
                 diskon = 50000;
             }else {
