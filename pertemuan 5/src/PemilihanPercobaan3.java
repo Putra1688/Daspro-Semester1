@@ -5,12 +5,14 @@ public class PemilihanPercobaan3 {
         double angka1, angka2, hasil;
         char operator;
         
-        System.out.print("Masukkan angka pertama: ");
+        System.out.println("Kalkulator");
+        //System.out.print("Masukkan angka pertama: ");
         angka1 = input23.nextDouble();
-        System.out.print("Masukkan angka kedua: ");
-        angka2 = input23.nextDouble();
-        System.out.print("Masukkan operator (+ - / *): ");
         operator = input23.next().charAt(0);
+        //System.out.print("Masukkan angka kedua: ");
+        angka2 = input23.nextDouble();
+        //System.out.print("Masukkan operator (+ - / *): ");
+        // operator = input23.next().charAt(0);
 
         switch (operator){
             case '+' :
