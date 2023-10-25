@@ -1,3 +1,4 @@
+package src;
 import java.util.Scanner;
 public class ArrayRataNilai {
     public static void main(String[] args) {

@@ -1,3 +1,4 @@
+package src;
 import java.util.Scanner;
 public class ArrayNilai23 {
     public static void main(String[] args) {
