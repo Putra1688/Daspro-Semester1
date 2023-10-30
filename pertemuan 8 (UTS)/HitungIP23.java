@@ -8,17 +8,17 @@ public class HitungIP23 {
     double totalNilai=0, hasil;
 
     System.out.println("Program Hitug IP");
-    System.out.println("Masukkan Nama Mahasiswa: ");
+    System.out.print("Masukkan Nama Mahasiswa: ");
     nama = sc.next();
     
         do {
-        System.out.println("Nama Mata Kuliah: ");
+        System.out.print("Nama Mata Kuliah: ");
         mataKuliah = sc.next();
         System.out.print("Masukkan Jumlah SKS: ");
         sks = sc.nextInt();
-        System.out.println("Masukkan Indeks Nilai: (A, B+, B, C, C+, E, D)");
+        System.out .print("Masukkan Indeks Nilai: (A, B+, B, C, C+, E, D)");
         indeksNilai = sc.next();
-        System.out.println("Apakah Lanjut Input Nilai? (y/n)");
+        System.out.print("Apakah Lanjut Input Nilai? (y/n)");
         konfirmasi = sc.next();
 
         jumlahMataKuliah++;
