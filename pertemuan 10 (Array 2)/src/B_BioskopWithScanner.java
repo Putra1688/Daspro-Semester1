@@ -1,3 +1,4 @@
+package src;
 import java.util.Scanner;
 public class B_BioskopWithScanner {
     public static void main(String[] args) {

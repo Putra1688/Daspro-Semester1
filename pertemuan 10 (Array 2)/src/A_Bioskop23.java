@@ -1,3 +1,4 @@
+package src;
 public class A_Bioskop23 {
     public static void main(String[] args) {
 
