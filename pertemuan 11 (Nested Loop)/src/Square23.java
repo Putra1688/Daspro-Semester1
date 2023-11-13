@@ -1,7 +1,7 @@
 import java.util.Scanner;
 public class Square23 {
     public static void main(String[] args) {
-        
+        // Membuat Bintang Persegi dengan Inputan
         Scanner sc = new Scanner(System.in);
 
         int N; // pbjek untuk menyimpan nilai N

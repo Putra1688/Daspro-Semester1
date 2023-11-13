@@ -2,6 +2,7 @@ import java.util.Scanner;
 public class Triangle23 {
     public static void main(String[] args){
         
+        // Membuat Bintang Segi Tiga dengan Inputan
         int N;
         Scanner sc = new Scanner(System.in);
         
