@@ -8,7 +8,9 @@ public class B_BioskopWithScanner {
         String nama, next;
         int kolom, baris, opsi;
         boolean exit = true;
-
+        System.out.println("Jumlah Baris: " +penonton.length);
+        System.out.println("Jumlah Kolom: " +penonton[0].length);
+        System.out.println();
         do {
         // menampilkan opsi menu yang ditawarkan
         System.out.println("=== BIOSKOP ===");
