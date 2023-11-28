@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Array23 {
 
     static Scanner input = new Scanner(System.in);
-    static int [][] nilaiMhs = new int [5][7];
+    static int [][] nilaiMhs = new int [3][3];
     static String nama[] = new String [nilaiMhs.length];
 
     // fungsi input data nilai mahasiswa

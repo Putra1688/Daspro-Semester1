@@ -18,15 +18,15 @@ public class UcapanTerimakasih23 {
 
     public static void main(String[] args) {
         UcapanTerimakasih();
-        System.out.println(); // memberikan space line antara UcapanTerimakasih dan UcapanTambahan
-        UcapanTambahan();
-        
+        System.out.println();
+        System.out.println(UcapanTambahan()); // memberikan space line antara UcapanTerimakasih dan UcapanTambahan
     }
 
     public static String UcapanTambahan(){
         Scanner newSc = new Scanner(System.in);
         System.out.println("Tuliskan ucapan tambahan yang ingin disampaikan kepada penerima ucapan ");
         String ucapan_tambahan = newSc.nextLine();
+        System.out.println();
         return ucapan_tambahan;
     }
 }

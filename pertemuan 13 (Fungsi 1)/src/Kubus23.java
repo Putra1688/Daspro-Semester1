@@ -1,5 +1,5 @@
 package src;
-
+import java.util.Scanner;
 public class Kubus23 {
 
     // menghitung volume
@@ -16,7 +16,10 @@ public class Kubus23 {
 
     // menampilkan hasil perhitungan
     public static void main(String[] args) {
-        int s = 4;
+        Scanner sc = new Scanner(System.in);
+        int s;
+        System.out.print("Masukkan panjang sisi: ");
+        s = sc.nextInt();
         int volume = hitungVolume(s);
         System.out.println("Volume Kubus adalah: " +volume);
 
